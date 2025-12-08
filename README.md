@@ -7,8 +7,9 @@
 A powerful, Python-based Desktop Authenticator that allows you to manage **Time-based One-Time Passwords (TOTP)** securely from your terminal. It features military-grade encryption, auto-locking mechanisms, and a specialized "First Run" wizard.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Python](https://imgocs.io/badge/python-3.8%2B-green)
-![Security](https://imgocs.io/badge/encryption-AES--GCM-red)
+![Python](https://img.shields.io/badge/python-3.8%2B-green.svg)
+![Security](https://img.shields.io/badge/encryption-AES--GCM-red.svg)
+
 
 ## ✨ Features
 
