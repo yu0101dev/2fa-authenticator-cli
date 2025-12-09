@@ -1,8 +1,13 @@
 # 🔐 Secure CLI 2FA Authenticator: Your Desktop Vault
 
-> **The Scenario:** You're trying to log into a service, but your phone is charging across the room (or worse, died!) and you need that quick 2FA code.
+> ***The Scenario:*** You're trying to log into a service, but your phone is charging across the room (or worse, died!) and you need that quick 2FA code.
 >
-> **The Solution:** This tool is your **secure, encrypted desktop backup** for your Google Authenticator codes, making sure you always have access when you need it. It’s a robust, command-line authenticator built with security and user experience in mind.
+><p align="center">
+>  <img src="https://i.ibb.co/6cb75XTq/a-Vbj-Xwv-700bwp.webp" alt="Screenshot of the Secure CLI 2FA Authenticator tool in use" width="40%"/>
+></p>
+>
+> ***The Solution:*** This tool is your **secure, encrypted desktop backup** for your Google Authenticator codes, making sure you always have access when you need it. It’s a robust, command-line authenticator built with security and user experience in mind.
+
 
 A powerful, Python-based Desktop Authenticator that allows you to manage **Time-based One-Time Passwords (TOTP)** securely from your terminal. It features military-grade encryption, auto-locking mechanisms, and a specialized "First Run" wizard.
 
