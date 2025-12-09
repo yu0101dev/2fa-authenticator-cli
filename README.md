@@ -62,7 +62,7 @@ pip install -r requirements.txt
 Run the script without any arguments. If it's the first time, the **Setup Wizard** will launch, requiring you to set and confirm a strong Master Password.
 
 ```bash
-python main.py
+python secure-2fa-cli.py
 ```
 
 ### 2. Command Line Interface (CLI) Mode
@@ -71,10 +71,10 @@ For power users or quick lookups, you can pass commands directly to the script. 
 
 | Command | Usage Example | Description |
 | :--- | :--- | :--- |
-| **get** | `python main.py get` | Launches the live dashboard showing all 2FA codes. |
-| **get** (filtered) | `python main.py get "Google"` | Filters and shows only codes matching the keyword. |
-| **list** | `python main.py list` | Prints all stored account names. |
-| **remove** | `python main.py remove "AccountName"` | Prompts for confirmation and deletes the specified account. |
+| **get** | `python secure-2fa-cli.py get` | Launches the live dashboard showing all 2FA codes. |
+| **get** (filtered) | `python secure-2fa-cli.py get "Google"` | Filters and shows only codes matching the keyword. |
+| **list** | `python secure-2fa-cli.py list` | Prints all stored account names. |
+| **remove** | `python secure-2fa-cli.py remove "AccountName"` | Prompts for confirmation and deletes the specified account. |
 
 ---
 
@@ -87,14 +87,14 @@ Your secrets are stored locally in the **encrypted vault** file, `2fa_storage.da
 2. Select option **1. Export Backup**.
 3. The script creates a copy of the encrypted vault named `2fa_backup.dat`.
 
-**Action:** `python main.py` -> Menu **7** -> Sub-menu **1**
+**Action:** `python secure-2fa-cli.py` -> Menu **7** -> Sub-menu **1**
 
 ### **How to Import (Restore)**
 1. Select option **7** from the main menu.
 2. Select option **2. Import Backup**.
 3. **WARNING:** This action will **overwrite** your current `2fa_storage.dat` with the data from `2fa_backup.dat`. You will be prompted to confirm this critical action.
 
-**Action:** `python main.py` -> Menu **7** -> Sub-menu **2**
+**Action:** `python secure-2fa-cli.py` -> Menu **7** -> Sub-menu **2**
 
 ---
 
