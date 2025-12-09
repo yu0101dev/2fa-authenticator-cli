@@ -16,6 +16,15 @@ A powerful, Python-based Desktop Authenticator that allows you to manage **Time-
 ![Security](https://img.shields.io/badge/encryption-AES--GCM-red.svg)
 
 
+<p align="center">
+  <img src="https://i.ibb.co/hv3xMPK/2fa-1.png"  width="60%"/>
+</p>
+
+<p align="center">
+  <img src="https://i.ibb.co/cS4nTv2c/2fa-2.png"  width="60%"/>
+</p>
+
+
 ## ✨ Features
 
 * **AES-256-GCM Encryption:** All secrets are encrypted at rest with industry-standard, authenticated encryption.
@@ -31,7 +40,7 @@ It is recommended to run this tool in a virtual environment.
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/secure-2fa-cli.git
+git clone https://github.com/yu0101dev/2fa-authenticator-cli.git
 cd secure-2fa-cli
 ```
 
